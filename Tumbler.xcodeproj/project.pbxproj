@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE7A649D911669C62044781 /* Pods_TumblerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AED17C44A666137BDAE6B1C /* Pods_TumblerUITests.framework */; };
+		288BF268AC595E866E23CDBF /* Pods_TumblerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EFA8030B1072ECDFE79736 /* Pods_TumblerTests.framework */; };
+		8F186E37A738731C0A2DDA74 /* Pods_Tumbler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1833820C065E757C78C287FF /* Pods_Tumbler.framework */; };
 		99E36C3320329EA3001C4AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C3220329EA3001C4AAA /* AppDelegate.swift */; };
-		99E36C3520329EA3001C4AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C3420329EA3001C4AAA /* ViewController.swift */; };
 		99E36C3820329EA3001C4AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E36C3620329EA3001C4AAA /* Main.storyboard */; };
 		99E36C3A20329EA3001C4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E36C3920329EA3001C4AAA /* Assets.xcassets */; };
 		99E36C3D20329EA3001C4AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E36C3B20329EA3001C4AAA /* LaunchScreen.storyboard */; };
 		99E36C4820329EA3001C4AAA /* TumblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C4720329EA3001C4AAA /* TumblerTests.swift */; };
 		99E36C5320329EA3001C4AAA /* TumblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C5220329EA3001C4AAA /* TumblerUITests.swift */; };
+		99E36C66203388CA001C4AAA /* PhotosViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C65203388CA001C4AAA /* PhotosViewCell.swift */; };
+		99E36C6A2033B030001C4AAA /* TumblerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C692033B030001C4AAA /* TumblerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055F534B14AFBE20D7C57ECD /* Pods-TumblerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblerUITests/Pods-TumblerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1833820C065E757C78C287FF /* Pods_Tumbler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AED17C44A666137BDAE6B1C /* Pods_TumblerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EFA8030B1072ECDFE79736 /* Pods_TumblerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F25956EF265142DD2364A6A /* Pods-TumblerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblerTests/Pods-TumblerTests.release.xcconfig"; sourceTree = "<group>"; };
 		99E36C2F20329EA3001C4AAA /* Tumbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E36C3220329EA3001C4AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99E36C3420329EA3001C4AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99E36C3720329EA3001C4AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99E36C3920329EA3001C4AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99E36C3C20329EA3001C4AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		99E36C4E20329EA3001C4AAA /* TumblerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E36C5220329EA3001C4AAA /* TumblerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblerUITests.swift; sourceTree = "<group>"; };
 		99E36C5420329EA3001C4AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E36C65203388CA001C4AAA /* PhotosViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewCell.swift; sourceTree = "<group>"; };
+		99E36C692033B030001C4AAA /* TumblerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblerViewController.swift; sourceTree = "<group>"; };
+		B316A15CC1051A648D9AA70B /* Pods-Tumbler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler.release.xcconfig"; sourceTree = "<group>"; };
+		B42A101968EAF0DE417441A4 /* Pods-TumblerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblerTests/Pods-TumblerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D2DD420AB6E16F872F516C /* Pods-Tumbler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA8F17CB77C88B33D8719B7 /* Pods-TumblerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblerUITests/Pods-TumblerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F186E37A738731C0A2DDA74 /* Pods_Tumbler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288BF268AC595E866E23CDBF /* Pods_TumblerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE7A649D911669C62044781 /* Pods_TumblerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39EA0EC95994472AEC89241B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DD420AB6E16F872F516C /* Pods-Tumbler.debug.xcconfig */,
+				B316A15CC1051A648D9AA70B /* Pods-Tumbler.release.xcconfig */,
+				B42A101968EAF0DE417441A4 /* Pods-TumblerTests.debug.xcconfig */,
+				6F25956EF265142DD2364A6A /* Pods-TumblerTests.release.xcconfig */,
+				055F534B14AFBE20D7C57ECD /* Pods-TumblerUITests.debug.xcconfig */,
+				FFA8F17CB77C88B33D8719B7 /* Pods-TumblerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72F3CC350E875FF7A54838C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1833820C065E757C78C287FF /* Pods_Tumbler.framework */,
+				67EFA8030B1072ECDFE79736 /* Pods_TumblerTests.framework */,
+				5AED17C44A666137BDAE6B1C /* Pods_TumblerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99E36C2620329EA3001C4AAA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				99E36C4620329EA3001C4AAA /* TumblerTests */,
 				99E36C5120329EA3001C4AAA /* TumblerUITests */,
 				99E36C3020329EA3001C4AAA /* Products */,
+				39EA0EC95994472AEC89241B /* Pods */,
+				72F3CC350E875FF7A54838C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,13 @@
 		99E36C3120329EA3001C4AAA /* Tumbler */ = {
 			isa = PBXGroup;
 			children = (
+				99E36C622032ABA0001C4AAA /* View Controllers */,
 				99E36C3220329EA3001C4AAA /* AppDelegate.swift */,
-				99E36C3420329EA3001C4AAA /* ViewController.swift */,
 				99E36C3620329EA3001C4AAA /* Main.storyboard */,
 				99E36C3920329EA3001C4AAA /* Assets.xcassets */,
 				99E36C3B20329EA3001C4AAA /* LaunchScreen.storyboard */,
 				99E36C3E20329EA3001C4AAA /* Info.plist */,
+				99E36C65203388CA001C4AAA /* PhotosViewCell.swift */,
 			);
 			path = Tumbler;
 			sourceTree = "<group>";
@@ -125,6 +168,14 @@
 			path = TumblerUITests;
 			sourceTree = "<group>";
 		};
+		99E36C622032ABA0001C4AAA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99E36C692033B030001C4AAA /* TumblerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99E36C5720329EA3001C4AAA /* Build configuration list for PBXNativeTarget "Tumbler" */;
 			buildPhases = (
+				DDBB0A7911FE47447C4A6ECE /* [CP] Check Pods Manifest.lock */,
 				99E36C2B20329EA3001C4AAA /* Sources */,
 				99E36C2C20329EA3001C4AAA /* Frameworks */,
 				99E36C2D20329EA3001C4AAA /* Resources */,
+				376A16EB773CC44771C771D2 /* [CP] Embed Pods Frameworks */,
+				A934CC07F8AE782CD1D724E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99E36C5A20329EA3001C4AAA /* Build configuration list for PBXNativeTarget "TumblerTests" */;
 			buildPhases = (
+				A06EE28881806A0865D561FE /* [CP] Check Pods Manifest.lock */,
 				99E36C3F20329EA3001C4AAA /* Sources */,
 				99E36C4020329EA3001C4AAA /* Frameworks */,
 				99E36C4120329EA3001C4AAA /* Resources */,
+				40FE26C0368F7F622170A32D /* [CP] Embed Pods Frameworks */,
+				7700654251AE85D8F69DD57E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99E36C5D20329EA3001C4AAA /* Build configuration list for PBXNativeTarget "TumblerUITests" */;
 			buildPhases = (
+				3AF8F3D559B24892586AD6AD /* [CP] Check Pods Manifest.lock */,
 				99E36C4A20329EA3001C4AAA /* Sources */,
 				99E36C4B20329EA3001C4AAA /* Frameworks */,
 				99E36C4C20329EA3001C4AAA /* Resources */,
+				AFBE78D7143656459D0C801A /* [CP] Embed Pods Frameworks */,
+				48B2028D4772BCD41B213C28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +314,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		376A16EB773CC44771C771D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF8F3D559B24892586AD6AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TumblerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40FE26C0368F7F622170A32D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TumblerTests/Pods-TumblerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B2028D4772BCD41B213C28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TumblerUITests/Pods-TumblerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7700654251AE85D8F69DD57E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TumblerTests/Pods-TumblerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06EE28881806A0865D561FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TumblerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A934CC07F8AE782CD1D724E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBE78D7143656459D0C801A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TumblerUITests/Pods-TumblerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBB0A7911FE47447C4A6ECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99E36C2B20329EA3001C4AAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E36C3520329EA3001C4AAA /* ViewController.swift in Sources */,
+				99E36C6A2033B030001C4AAA /* TumblerViewController.swift in Sources */,
+				99E36C66203388CA001C4AAA /* PhotosViewCell.swift in Sources */,
 				99E36C3320329EA3001C4AAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +637,7 @@
 		};
 		99E36C5820329EA3001C4AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D2DD420AB6E16F872F516C /* Pods-Tumbler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +653,7 @@
 		};
 		99E36C5920329EA3001C4AAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B316A15CC1051A648D9AA70B /* Pods-Tumbler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +669,7 @@
 		};
 		99E36C5B20329EA3001C4AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42A101968EAF0DE417441A4 /* Pods-TumblerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +687,7 @@
 		};
 		99E36C5C20329EA3001C4AAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F25956EF265142DD2364A6A /* Pods-TumblerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +705,7 @@
 		};
 		99E36C5E20329EA3001C4AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055F534B14AFBE20D7C57ECD /* Pods-TumblerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +722,7 @@
 		};
 		99E36C5F20329EA3001C4AAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA8F17CB77C88B33D8719B7 /* Pods-TumblerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
