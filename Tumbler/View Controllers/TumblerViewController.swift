@@ -62,8 +62,7 @@ class TumblerViewController: UIViewController, UITableViewDataSource {
             let urlString = originalSize["url"] as! String
             // 4.
             let url = URL(string: urlString)
-            //cell.photoImage.af_setImage(withURL: url!)
-            self.tableView.reloadData()
+            cell.photoImage.af_setImage(withURL: url!)
         }
         else {
             // No poster image. Can either set to nil (no image) or a default movie poster image
