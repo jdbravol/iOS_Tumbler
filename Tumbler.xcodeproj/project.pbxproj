@@ -10,6 +10,7 @@
 		1AE7A649D911669C62044781 /* Pods_TumblerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AED17C44A666137BDAE6B1C /* Pods_TumblerUITests.framework */; };
 		288BF268AC595E866E23CDBF /* Pods_TumblerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EFA8030B1072ECDFE79736 /* Pods_TumblerTests.framework */; };
 		8F186E37A738731C0A2DDA74 /* Pods_Tumbler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1833820C065E757C78C287FF /* Pods_Tumbler.framework */; };
+		99C75F8B203C07CA00437F02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C75F8A203C07CA00437F02 /* DetailViewController.swift */; };
 		99E36C3320329EA3001C4AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E36C3220329EA3001C4AAA /* AppDelegate.swift */; };
 		99E36C3820329EA3001C4AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E36C3620329EA3001C4AAA /* Main.storyboard */; };
 		99E36C3A20329EA3001C4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E36C3920329EA3001C4AAA /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		5AED17C44A666137BDAE6B1C /* Pods_TumblerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EFA8030B1072ECDFE79736 /* Pods_TumblerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F25956EF265142DD2364A6A /* Pods-TumblerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblerTests/Pods-TumblerTests.release.xcconfig"; sourceTree = "<group>"; };
+		99C75F8A203C07CA00437F02 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		99E36C2F20329EA3001C4AAA /* Tumbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E36C3220329EA3001C4AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E36C3720329EA3001C4AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,6 +116,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		99C75F89203C071600437F02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99E36C65203388CA001C4AAA /* PhotosViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		99E36C2620329EA3001C4AAA = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +149,13 @@
 		99E36C3120329EA3001C4AAA /* Tumbler */ = {
 			isa = PBXGroup;
 			children = (
+				99C75F89203C071600437F02 /* Views */,
 				99E36C622032ABA0001C4AAA /* View Controllers */,
 				99E36C3220329EA3001C4AAA /* AppDelegate.swift */,
 				99E36C3620329EA3001C4AAA /* Main.storyboard */,
 				99E36C3920329EA3001C4AAA /* Assets.xcassets */,
 				99E36C3B20329EA3001C4AAA /* LaunchScreen.storyboard */,
 				99E36C3E20329EA3001C4AAA /* Info.plist */,
-				99E36C65203388CA001C4AAA /* PhotosViewCell.swift */,
 			);
 			path = Tumbler;
 			sourceTree = "<group>";
@@ -172,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				99E36C692033B030001C4AAA /* TumblerViewController.swift */,
+				99C75F8A203C07CA00437F02 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -474,6 +485,7 @@
 				99E36C6A2033B030001C4AAA /* TumblerViewController.swift in Sources */,
 				99E36C66203388CA001C4AAA /* PhotosViewCell.swift in Sources */,
 				99E36C3320329EA3001C4AAA /* AppDelegate.swift in Sources */,
+				99C75F8B203C07CA00437F02 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

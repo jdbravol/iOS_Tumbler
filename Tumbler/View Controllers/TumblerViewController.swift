@@ -77,6 +77,16 @@ class TumblerViewController: UIViewController, UITableViewDataSource {
         return posts.count
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexpath = tableView.indexPath(for: cell){
+            let post = posts[indexpath.row]
+            if let image = post["photos"] as? [[String: Any]]{
+                let detailViewController = segue.destination as! DetailViewController
+                detailViewController.image = image
+            }
+        }
+    }
     
 
     /*
